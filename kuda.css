@@ -1,0 +1,1342 @@
+
+.az{
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+.body{
+    overflow-x: hidden;
+}
+.per{
+    font-weight: 500;
+    color: #41096D;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rat{
+    position: relative;
+}
+.rat:hover{
+    .end{
+        display: block;
+    }
+}
+.navi{
+    gap: 10rem;
+}
+.logo{
+    margin-left: 60px;
+}
+.mon{
+    min-width: 500px;
+    font-weight: 750;
+    color: #41096D;
+    /* margin-left: 150px; */
+    margin-top: 200px;
+    font-size: 45px;
+}
+.xee{
+    margin-left: 150px;
+}
+.make{
+    /* margin-left: 150px; */
+    font-size: 18px;
+}
+.butt{
+    /* margin-left: 150px; */
+    border: none;
+    height: 40px;
+    width: 125x;
+    background-color: black;
+    transition: all 1s ease-in-out;
+}
+.butto{
+    border: none;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    transition: all 1s ease-in-out;
+}
+.down{
+    font-size: 10px;
+    margin-top: -2px;
+    margin-left: 50x;
+    min-width: 100px;
+}
+.apple{
+    font-size: 19px;
+    margin-top: -25px;
+    margin-left: -100px;
+    min-width: 100px;
+    margin-top: 5px;
+}
+.butt:hover{
+    background-color: black;
+    transform: translateY(-2px);
+}
+.butto:hover{
+    background-color: black;
+    transform: translateY(-2px);
+}
+.first{
+    border: 1px lightgray solid;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    /* position: relative; */
+    margin-top: 50px;
+    /* margin-left: -200px; */
+}
+.small-1{
+    border: none;
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: -180px;
+    /* margin-top: 250px; */
+    position: absolute;
+    animation: rev 6s linear 0s infinite normal ;
+}
+@keyframes rev {
+    0%{
+        transform: rotate(0deg) translateX(225px);
+    }
+    100%{
+        transform: rotate(360deg) translatex(225px);
+    }
+}
+.small-5{
+    border: none;
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: -180px;
+    /* margin-top: 250px; */
+    position: absolute;
+    animation: revolve 7s linear 0s infinite normal;
+}
+@keyframes revolve {
+    0%{
+        transform: rotate(0deg) translateX(225px);
+    }
+    100%{
+        transform: rotate(-360deg) translatex(225px);
+    }
+}
+.small-2{
+    border: none;
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: -180px;
+    /* margin-top: 250px; */
+    position: absolute;
+    animation: revo 7s linear 0s infinite normal ;
+}
+@keyframes revo {
+    0%{
+        transform: rotate(0deg) translateX(-225px);
+    }
+    100%{
+        transform: rotate(-360deg) translatex(-225px);
+    }
+}
+.second{
+    border: 1px lightgray solid;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: 65px;
+}
+.small-3{
+    border: none;
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 205px;
+    margin-top: -180px; 
+    position: absolute;
+    animation: revol 5s linear 0s infinite normal ;
+}
+@keyframes revol {
+    0%{
+        transform: rotate(0deg) translateY(-160px);
+    }
+    100%{
+        transform: rotate(-360deg) translateY(-160px);
+    }
+} 
+.small-4{
+    border: none;
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 205px;
+    margin-top: -180px; 
+    position: absolute;
+    animation: revolv 5s linear 0s infinite normal ;
+}
+@keyframes revolv {
+    0%{
+        transform: rotate(0deg) translateY(-160px);
+    }
+    100%{
+        transform: rotate(360deg) translateY(-160px);
+    }
+} 
+.third{
+    border: 1px lightgrey solid;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: 65px;
+}
+.or{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #41096D;
+    margin-left: 25px;
+    margin-top: -2px;
+}
+.flex{
+    margin-left: 150px;
+}
+.flex-1{
+    margin-left: 360px;
+    box-shadow:0px 0px 1px 0px lightgrey;
+}
+.bord{
+    border: none;
+    width: 360px;
+    height: 100px;
+    box-shadow: 1px 4px 50px 1px lightgray;
+}
+.tiny{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: -30px;
+    background-color: aliceblue;;
+}
+.till{
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 65px;
+    background-color: white;
+}
+.till-1{
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 65px;
+    background-color: white;
+}
+.till-3{
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 280px;
+    background-color: white;
+}
+.ye{
+    margin-left: 97px;
+}
+.yes{
+    margin-left: 125px;
+}
+.tinys{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 25px;
+    /* margin-top: -30px; */
+    background-color: aliceblue;;
+}
+.icon{
+    margin-top: 15px;
+    margin-left: 33px;
+    margin-top: 15px;
+    color: #41096D;
+}
+.icons{
+    margin-top: 15px;
+    margin-left: 33px;
+    margin-top: 15px;
+    color: #41096D;
+}
+.you{
+    font-weight: bold;
+    color: #41096D;
+    margin-left: 0px;
+    line-height: 45px;
+    max-width: 400px;
+    margin: 0px;
+}
+.ur{
+    margin-left: 150px;
+    margin-top: 280px;
+    gap:15rem;
+    margin-bottom: 60px;
+}
+.design{
+    max-width: 400px;
+    font-size: 15px;
+}
+.girl{
+    border: none;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    /* margin-left: 100px; */
+    margin-top: -30px;
+}
+.me{
+    margin-top: 100px;
+    margin-left: -200px;
+}
+.curve{
+    border: none;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    /* margin-top: -20px;  */
+    margin: 0px;
+    background-color: aliceblue;
+}
+.it{
+    margin-left: -50px;
+    margin-top: 50px;
+}
+.save{
+    margin-left: -50px;
+}
+.pic{
+    margin-top: 80px;
+    margin-left: -25px;
+}
+/* .user{
+    border: 1px solid;
+    width: 200px;
+    height: 35px;
+    margin-left: 110px;
+} */
+.initial{
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: -70px;
+}
+.last{
+    margin: 0px;
+    margin-left: -30px;
+    margin-top: 40px;
+    /* margin-top: -300px; */
+}
+.in{
+    /* margin-right: 500px; */
+    font-weight: 500;
+    color: #41096D;
+    font-size: 14px;
+}
+.jon{
+    background-color: #41096D;
+    height: 40px;
+    font-weight: 500;
+    transition: all 1s ease-in-out;
+    width: 120px;
+}
+.jon:hover{
+    background-color: #41096D;
+    transform: translateY(-4px);
+}
+.sign{
+    margin-top: 10px;
+}
+.open{
+    color: #41096D;
+    margin-left: 0px;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 15px;
+}
+.use{
+    margin-top: -60px;
+}
+.top{
+    margin-top: -60px;
+}
+.all{
+    /* gap: -10rem;  */
+}
+.phone{
+    position: absolute;
+    margin-left: -100px;
+}
+.card{
+    position: absolute;
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 210px;
+    margin-top: -80px;
+    background-color: #fff3d7;
+}
+.car{
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.block{
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: -155px;
+    background-color: rgb(280, 243, 215);
+}
+.bcard{
+    margin-top: 105px;
+    margin-left: 50px;
+}
+.bloc{
+    margin-left: 100px;
+}
+.not{
+    margin-left: 495px;
+    margin-top: -200px;
+}
+.tun{
+    margin-left: 100px;
+}
+.life{
+    margin-left: 100px;
+}
+.lear{
+    margin-left: -60px;
+}
+.hell{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.coins{
+    margin-left: 150px;
+}
+.fees{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.don{
+    margin-left: 450px;
+}
+.tom{
+    border: 1px solid;
+    min-width: 350px;
+    height: 250px;
+    margin-left: 20px;
+}
+.pict{
+    display: flex;
+    margin-left: 100px;
+    gap: 6rem;
+    margin-top: 50px;
+}
+.contain{
+    margin-left: 100px;
+    border: 1px solid lightgray;
+    width: 1100px;
+    height: 550px;
+}
+.hid{
+    animation: scroll 20s linear infinite ;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-800px);
+    }
+}
+.bank{
+    color: #41096D;
+    font-weight: bold;
+    margin-left: 380px;
+}
+.other{
+    gap: 12rem;
+}
+.trans{
+    margin-left: 100px;
+    color: black;
+}
+.upt{
+    margin-left: -75px;
+}
+.cha{
+    margin-left: 47px;
+}
+.perc{
+    margin-left: -20px;
+}
+.upn{
+    margin-left: 130px;
+}
+.upo{
+    margin-left: -30px;
+}
+.no{
+    margin-left: 125px;
+}
+.bussi{
+    margin-left: 150px;
+}
+.box{
+    border: none;
+    height: 275px;
+    width: 325px;
+    box-shadow: 3px 3px 30px 3px lightgray;
+}
+.pbord{
+    border: none;
+    width: 1030px;
+    height: 330px;
+    margin-left: 150px;
+    margin-top: 150px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 30px 3px lightgray;
+    overflow: hidden;
+    margin-bottom: 150px;
+}
+.footer{
+    margin-left:150px;
+    margin-top: 100px;
+}
+.son{
+    font-size: 15px;
+}
+.disc{
+    font-size: 14px;
+    font-weight: 500;
+}
+.purp{
+    border: none;
+    height: 40px;
+    width: 150px;
+    background-color: #41096D;
+    margin-top: 20px;
+}
+.albut{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.prod{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.places{
+    margin-left: 150px;
+}
+.kud{
+    margin-left: 0px;
+}
+.little{
+    font-size: 13px;
+    color: grey;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.loan{
+    color: #41096D;
+    font-weight: bold;
+}
+.grow{
+    font-size: 16px;
+    font-weight: 450;
+}
+.color{
+    color: #41096D;
+    margin-top: 11px;
+    width: 0.5px;
+}
+.rig{
+    color: #41096D;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+.ico{
+    color: #41096D;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tom{
+    box-shadow: 1px 3px 20px 1px lightgray;
+    border: none;
+}
+.tin{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-top: 40px;
+}
+.tinm{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-top: 110px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: #41096D;
+}
+.tini{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-top: 85px;
+}
+.tint{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-top: 63px;
+}
+.ab{
+    margin-top: 0px;
+}
+.tinc{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-top: 85px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: #41096D;
+}
+.image{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+/* .first{
+    background-image: url(Assets/animatekud.png);
+    background-image: url(Assets/animate\ phone.png);
+} */
+.anikud{
+    margin-top: 150px;
+    margin-left: -20px;
+    width: 500px;
+    height: 150px;
+    z-index: 1;
+    /* margin-right: 20px; */
+}
+.aniph{
+    margin-left: -180px;
+    margin-top: -110px;
+    z-index: 1;
+}
+.goog{
+    margin-left: -90px;
+    margin-top: 10px;
+}
+.scan{
+    border: 1px solid #41096D;
+    background-color: whitesmoke;
+    height: 40px;
+    font-weight: 700;
+    color: #41096D;
+    font-size: 15px;
+}
+.scan:hover{
+    border: 1px solid #41096D;
+    background-color: whitesmoke;
+}
+.dow{
+    font-size: 43px;
+    line-height: 45px;
+    font-weight: bolder;
+    min-width: 400px;
+}
+.hr{
+    margin-top: 200px;
+}
+.blog{
+    font-weight: 750;
+    color: #41096D;
+    margin-left: 600px;
+    font-size: 45px;
+}
+ .end{
+    border: 1px solid;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 10px;
+    display: none;
+}
+.follow{
+    text-align: center;
+    margin-left: 450px;
+    max-width: 400px;
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.recent{
+    color: #41096D;
+    font-weight: 500;
+    margin-left: 100px;
+}
+.action{
+    box-shadow: 1px 5px 10px 1px lightgray;
+    margin-left: 80px;
+    margin-top: 19px;
+    color: lightgrey;
+    border: lightgray;
+}
+.input{
+    font-weight: 500;
+    word-spacing: 3px;
+}
+.search{
+    background-color: aliceblue;
+    color: #41096D;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.search:hover{
+    background-color: aliceblue;
+}
+.rec{
+    font-weight: 750;
+    color: #41096D;
+    margin-left: 110px;
+    font-size: 45px; 
+    margin-top: 20px;  
+}
+.tab{
+    border: none ;
+    width: 500px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 30px 3px lightgrey;
+}
+.smalltab{
+    border: none;
+    width: 500px;
+    height: 225px;
+    border-radius: 5px;
+}
+.rech{
+    background-image: url(https://blog.kudabank.com/uploads/HOW_TO_RECHARGE_YOUR_PREPAID_METER_IN_NIGERIA_aa02a116a9.png);
+    background-position: center;
+    background-size: cover;
+}
+.add{
+    background-image: url(https://blog.kudabank.com/uploads/Four_Ways_To_Love_Your_Customers_This_Month_Kuda_fe31b748e6.png);
+    background-position: center;
+    background-size: cover;
+}
+.kubtn{
+    background-color: aliceblue;
+    color: #41096D;
+    font-weight: 500;
+    font-size: 12px;
+}
+.how{
+    font-size: 19px;
+    font-weight: 700;
+}
+.met{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -7px;
+}
+.vis{
+    background-image: url(https://blog.kudabank.com/uploads/five_visa_free_destinations_Kuda_385a44ecfd.webp);    
+    background-position: center;
+    background-size: cover;
+}
+.wom{
+    background-image: url(https://blog.kudabank.com/uploads/How_to_make_your_business_more_visible_1_1a4f0c8cb6.png);
+    background-position: center;
+    background-size: cover;
+}
+.womt{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_5630_b058e8213a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.soft{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_5634_987a452260.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mfb{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_5684_816edd2163.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.five{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_5685_c5e730f25c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bvn{
+    background-image: url(https://blog.kudabank.com/uploads/How_to_Check_Your_Bank_Verification_Number_BVN_USSD_Codes_and_Online_Methods_Explained_3fa1b5fbf3.png);
+    background-position: center;
+    background-size: cover;
+}
+.guide{
+    background-image: url(https://blog.kudabank.com/uploads/Blog_How_to_Open_a_Business_Bank_Account_in_Nigeria_2024_Guide_ef34c8567d.png);
+    background-position: center;
+    background-size: cover;
+}
+.howto{
+    background-image: url(https://blog.kudabank.com/uploads/Blog_How_To_Register_Your_POS_Business_With_The_CAC_1cfbbba2a7.png);
+    background-position: center;
+    background-size: cover;
+}
+.smallbus{
+    background-image: url(https://blog.kudabank.com/uploads/Blog_Banner_Explore_small_businesses_that_you_can_start_easily_in_Nigeria_862c3afac0.png);
+    background-position: center;
+    background-size: cover;
+}
+.New{
+    background-image: url(https://blog.kudabank.com/uploads/K3_1ecf4a1099.png);
+    background-position: center;
+    background-size: cover;
+}
+.busreg{
+    background-image: url(https://blog.kudabank.com/uploads/Business_Registration_CAC_b9a449e882.webp);
+    background-position: center;
+    background-size: cover;
+}
+.pos{
+    background-image: url(https://blog.kudabank.com/uploads/How_POS_Imoroves_Customer_Expereince_48cba922c8.webp);
+    background-position: center;
+    background-size: cover;
+}
+.four{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_5691_14c4bc5128.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.newon{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_5696_c07af20ae0.jpg);
+    background-position: center;
+    background-image: cover;
+}
+.rease{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_3649_a03fe8ac26.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.isfive{
+    background-image: url(https://blog.kudabank.com/uploads/Kuda_Anniversary_Medium_Banner_bcc50dae5f.png);
+    background-position: center;
+    background-size: cover;
+}
+.routine{
+    background-image: url(https://blog.kudabank.com/uploads/Blog_Four_Routine_Business_Tasks_You_Can_Speed_Up_Now_f224eeec93.png);
+    background-position: center;
+    background-size: cover;
+}
+.improve{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_1714_c6d1e2e5c8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.payid{
+    background-image: url(https://blog.kudabank.com/uploads/Kuda_Pay_ID_Seer_Bit_Safe_Cardless_Payments_1_9fc2ce1d3b.png);
+    background-position: center;
+    background-size: cover;
+}
+.lagos{
+    background-image: url(https://blog.kudabank.com/uploads/Blog_Your_Lagos_Summer_Holiday_Guide_1_0a30eeb4ab.png);
+    background-position: center;
+    background-size: cover;
+}
+.retain{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2598_1c6a5cdcb6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.poor{
+    background-image: url(https://blog.kudabank.com/uploads/You_re_Not_Poor_You_re_Overspending_1_535c37cb6a.png);
+    background-position: center;
+    background-size: cover;
+}
+.sub{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2609_e1e070b409.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.term{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2611_bcde049431.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.perm{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2612_c05742cac7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fully{
+    color: lightgray;
+    font-size: 13px;
+}
+.part{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2612_c05742cac7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.made{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2624_4e23893567.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mate{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2631_0d88f57d37.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.low-budg{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2627_dc6703a964.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ultim{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2638_eb06bafcfc.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.abuja{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2666_6e87070b9e.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tax{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2663_d6d28baf82.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.solid{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2667_53748b073d.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.stuck{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2675_1d679159b5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.smart{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2682_dbc90457fe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.subsc{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2683_2a8d138e3b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.quest{
+    background-image: url(https://blog.kudabank.com/uploads/IMG_2677_ddb5c47e1c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.anti{
+    display: flex;
+    margin-left: 100px;
+}
+.asset{
+    margin-left:-120px;
+    margin-top: 65px;
+}
+.ani{
+    margin-top: 220px;
+    margin-right: 0px;
+}
+.pole{
+    display: flex;
+    gap: 10rem;
+} 
+.zee{
+    margin-left: 150px;
+}
+.med{
+    margin-top: 200px;
+}
+.make{
+    min-width: 400px;
+}
+.discover{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.paye{
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: -4px;
+    color: gray;
+}
+.class-1{
+    position: absolute;
+    top: 50px;
+    display: none;
+    box-shadow: 1px 1px 30px 3px lightgray;
+}
+.class-2{
+    position: absolute;
+    top: 50px;
+    display: none;
+    box-shadow: 1px 1px 30px 3px lightgray;
+}
+.class-3{
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+.class-4{
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+.div-1{
+    background-color: white;
+    padding: 20px;
+    opacity: 99;
+    line-height: 40px;
+    z-index: 1;
+}
+.div-2{
+    border: none;
+    background-color: rgb(245, 245, 245);
+    line-height: 40px;
+    padding: 20px;
+    opacity: 99;
+    z-index: 1;
+    width: 250px;
+}
+.div-3{
+    border: none;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    opacity: 99;
+    z-index: 1;
+    line-height: 40px;
+    width: 250px;
+}
+.prof-1:hover{
+    .class-1{
+        display: block !important;
+    }
+}
+.prof-2:hover{
+    .class-2{
+        display: block !important;
+    }
+}
+.div-4{
+    border: 1px solid rgb(245, 245, 245);
+    background-color: white;
+    padding: 20px;
+    opacity: 99;
+    z-index: 1;
+    box-shadow: 1px 1px 30px 3px lightgray;
+    line-height: 30px;
+}
+.div-5{
+    border: 1px solid rgb(245, 245, 245);
+    background-color: white;
+    padding: 20px;
+    opacity: 99;
+    z-index: 1;
+    box-shadow: 1px 1px 30px 3px lightgray;
+    line-height: 30px;
+}
+.prof-3:hover{
+    .class-3{
+        display: block !important;
+    }
+}
+.prof-4:hover{
+    .class-4{
+        display: block !important;
+    }
+}
+.flexi{
+    border: 1px solid rgb(245, 245, 245);
+}
+.blo{
+    margin-bottom: -5px;
+    margin-left: -10px;
+}
+.store{
+    margin-left: 150px;
+}
+.happ{
+    margin-bottom: 100px;
+}
+.tcirc{
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.dip{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.reality{
+    display: flex;
+}
+@media  screen and (max-width:500px) {
+    .az{
+        max-width: 500px;
+    }
+    .navi{
+        max-width: 500px;
+    }
+    .reality{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .invicible{
+        display: none;
+    }
+    .jon{
+        display: none;
+    }
+    .sign{
+        display: none;
+    }
+    .scan{
+        display: none;
+    }
+    .xee{
+        transform: scale(0.9);
+        text-align: center;
+        margin-left:6px;
+        min-width: 350px;
+    }
+    .me{
+        margin: 0px;
+        justify-content: center;
+        transform: scale(0.7);
+        margin-bottom: 50px;
+    }
+    .make{
+        font-size: 15px;
+    }
+    .butt{
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .chart{
+        margin-left: 0px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ur{
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .bord{
+        margin-left: 10px;
+    }
+    .curve{
+        margin: 0px;
+        margin-left: 20px;
+    }
+    .you{
+        margin-left: 5px;
+    }
+    .open{
+        margin-left: 5px;
+    }
+    .design{
+        margin-left: 5px;
+    }
+    .initial{
+        margin-top: 20px;
+        transform: scale(0.8);
+        margin-left: -60px;
+    }
+    .last{
+        margin-top: 20px;
+        transform: scale(0.8);
+        margin-left: -90px;
+    }
+    .newgirl{
+        margin: 0px;
+        margin-top: 20px;
+        margin-left: -30px;
+        transform: scale(0.8);
+    }
+    .happ{
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+    .unk{
+        margin-left: -125px;
+        transform: scale(0.8);
+    }
+    .were{
+        flex-direction: column;
+    }
+    .coin{
+        margin: 0px;
+        transform: scale(0.9);
+        text-align: center;
+    }
+    .coins{
+        margin: 0px;
+        transform: scale(0.8);
+        margin-left: -15px;
+    }
+    .hell{
+        transform: scale(0.8);
+        margin-left: -20px;
+    }
+    .tom{
+        transform: scale(0.9);
+    }
+    .girl{
+        margin-left: 90px;
+    }
+    .phone{
+        margin-left: -250px;
+    }
+    .pict{
+        margin: 0px;
+        margin-left: -40px;
+        display: grid;
+        grid-template-columns: repeat(3, 60px);
+        grid-template-rows: repeat(2, 50px);
+        transform: scale(0.7);
+    }
+    .contain{
+        margin-left: -300px;
+        transform: scaleX(0.47) scaley(0.5);
+    }
+    .bussi{
+        margin: 0px;
+        margin-left: 25px;
+        flex-direction: column;
+    }
+    .pbord{
+        margin: 0px;
+        margin-left: 20px;
+        width: 450px;
+        height: 200px;
+    }
+    .anti{
+        display: none;
+    }
+    .footer{
+        transform: scale(0.7);
+        margin: 0px;
+        margin-left: -80px;
+    }
+    .drend{
+        margin-left: -30px;
+    }
+    .store{
+        transform: scale(0.8);
+        margin: 0px;
+        /* margin-top: -10px; */
+    }
+    .gray{
+        flex-direction: column;
+    }
+    .places{
+        margin: 0px;
+    }
+    .little{
+        margin: 15px;
+    }
+    .blog{
+        margin: 0px;
+        margin-left: 30%;
+        transform: scale(0.8);
+    }
+    .follow{
+        margin: 0px;
+        margin-left: 8%;
+    }
+    .recent{
+        margin: 0px;
+    }
+    .se{
+        display: none;
+    }
+    .long{
+        max-width: 20px;
+    }
+    .trip{
+        flex-direction: column;
+    }
+    .icons{
+        margin: 0px;
+        margin-left: -15rem;
+    }
+    .rec{
+        margin-left: 0px;
+        flex-direction: column;
+        transform: scale(0.8);
+    }
+}
+.sign{
+    margin-left: 200px;
+}
+.scan{
+    margin-left: -50px;
+    width: 130px;
+}
+
